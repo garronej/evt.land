@@ -6,7 +6,7 @@ const ext_replace = require('gulp-ext-replace');
 
 gulp.task('copy-bootstrap', () => {
 	return gulp.src([
-		'node_modules/bootstrap/docs/**/*',
+		'node_modules/bootstrap/dist/**/*',
 		'!**/*.map'
 	])
 		.pipe(gulp.dest('docs/assets/3p/bootstrap'));
@@ -22,7 +22,7 @@ gulp.task('copy-fontawesome', () => {
 
 gulp.task('copy-jquery', () => {
 	return gulp.src([
-		'node_modules/jquery/docs/**/*',
+		'node_modules/jquery/dist/**/*',
 		'!**/*.map'
 	])
 		.pipe(gulp.dest('docs/assets/3p/jquery'));
