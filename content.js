@@ -1,6 +1,6 @@
 module.exports = {
   title: 'TS-EVT',
-  subtitle: 'A Node.js and TypeScript framework, all-inclusive.',
+  subtitle: "Type safe replacement for node's EventEmitter that deprecate RxJS",
   description: 'FoalTS is a complete Node.js and TypeScript framework with everything you need to create server-side applications. Its architecture keeps things simple and intuitive.',
   features: [
     {
