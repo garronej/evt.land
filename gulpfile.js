@@ -2,6 +2,7 @@ const browserSync = require('browser-sync').create();
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const ejs = require('gulp-ejs');
+const ext_replace = require('gulp-ext-replace');
 
 gulp.task('copy-bootstrap', () => {
   return gulp.src([
@@ -45,8 +46,9 @@ gulp.task('copy', gulp.parallel([ 'copy-bootstrap', 'copy-fontawesome', 'copy-jq
 gulp.task('ejs', () => {
   delete require.cache[require.resolve('./content')];
   const content = require('./content');
-  return gulp.src('*.html')
+  return gulp.src('*.ejs')
     .pipe(ejs(content))
+    .pipe(ext_replace('.html'))
     .pipe(gulp.dest('docs'))
     .pipe(browserSync.reload({
       stream: true
@@ -75,6 +77,6 @@ gulp.task('default', gulp.parallel(['copy', 'sass', 'ejs']));
 
 gulp.task('dev', gulp.parallel(['browserSync', 'sass', 'ejs'], () => {
   gulp.watch('scss/*.scss', gulp.series(['sass']));
-  gulp.watch('*.html', gulp.series(['ejs']));
+  gulp.watch('*.ejs', gulp.series(['ejs']));
   gulp.watch('content.js', gulp.series(['ejs']));
 }));
