@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Foal TS',
+  title: 'TS-EVT',
   subtitle: 'A Node.js and TypeScript framework, all-inclusive.',
   description: 'FoalTS is a complete Node.js and TypeScript framework with everything you need to create server-side applications. Its architecture keeps things simple and intuitive.',
   features: [
