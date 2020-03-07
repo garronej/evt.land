@@ -5,10 +5,10 @@ const ejs = require('gulp-ejs');
 
 gulp.task('copy-bootstrap', () => {
   return gulp.src([
-      'node_modules/bootstrap/dist/**/*',
+      'node_modules/bootstrap/docs/**/*',
       '!**/*.map'
     ])
-    .pipe(gulp.dest('dist/assets/3p/bootstrap'));
+    .pipe(gulp.dest('docs/assets/3p/bootstrap'));
 })
 
 gulp.task('copy-fontawesome', () => {
@@ -16,15 +16,15 @@ gulp.task('copy-fontawesome', () => {
       'node_modules/font-awesome/**/*',
       '!**/*.map'
     ])
-    .pipe(gulp.dest('dist/assets/3p/font-awesome'));
+    .pipe(gulp.dest('docs/assets/3p/font-awesome'));
 })
 
 gulp.task('copy-jquery', () => {
   return gulp.src([
-      'node_modules/jquery/dist/**/*',
+      'node_modules/jquery/docs/**/*',
       '!**/*.map'
     ])
-    .pipe(gulp.dest('dist/assets/3p/jquery'));
+    .pipe(gulp.dest('docs/assets/3p/jquery'));
 })
 
 gulp.task('copy-types', () => {
@@ -32,12 +32,12 @@ gulp.task('copy-types', () => {
       'node_modules/typed.js/lib/**/*',
       '!**/*.map'
     ])
-    .pipe(gulp.dest('dist/assets/3p/typed.js'));
+    .pipe(gulp.dest('docs/assets/3p/typed.js'));
 })
 
 gulp.task('copy-img', () => {
   return gulp.src('img/*')
-    .pipe(gulp.dest('dist/assets/img'));
+    .pipe(gulp.dest('docs/assets/img'));
 })
 
 gulp.task('copy', gulp.parallel([ 'copy-bootstrap', 'copy-fontawesome', 'copy-jquery', 'copy-types', 'copy-img' ]));
@@ -47,7 +47,7 @@ gulp.task('ejs', () => {
   const content = require('./content');
   return gulp.src('*.html')
     .pipe(ejs(content))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('docs'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -57,7 +57,7 @@ gulp.task('ejs', () => {
 gulp.task('sass', () => {
   return gulp.src('scss/main.scss')
     .pipe(sass())
-    .pipe(gulp.dest('dist/assets/css'))
+    .pipe(gulp.dest('docs/assets/css'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -66,7 +66,7 @@ gulp.task('sass', () => {
 gulp.task('browserSync', () => {
   return browserSync.init({
     server: {
-      baseDir: './dist'
+      baseDir: './docs'
     },
   });
 });
