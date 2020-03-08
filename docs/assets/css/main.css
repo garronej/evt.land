@@ -2,14 +2,6 @@ body {
   background-color: #fafafa;
   font-family: Roboto,Helvetica,Arial,sans-serif; }
 
-.btn {
-  background-color: #126cda;
-  border: #126cda;
-  font-size: 1.1rem;
-  font-weight: 500;
-  border-radius: 30px;
-  padding: 0.5rem 4rem; }
-
 .btn-white {
   background-color: #fff;
   border: none;
@@ -26,7 +18,7 @@ body {
   background: #1b1e21;
   padding: 15px;
   border-radius: 5px;
-  height: 115px;
+  height: 50px;
   max-width: 500px; }
 
 .mastfoot {
@@ -38,10 +30,18 @@ body {
   .navbar a:hover {
     color: #d6e9ff !important; }
 
+.st_flex {
+  display: flex;
+  justify-content: space-around; }
+  .st_flex a {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px; }
+
 .masthead {
-  min-height: 700px;
+  min-height: 500px;
   background-color: #1b7cf2;
-  background-image: url("/assets/img/background8.png");
+  background-image: url("/Users/joseph/github/ts-evt.dev/docs/assets/img/background8.png");
   background-attachment: fixed;
   background-position: center; }
   @media (max-width: 576px) {
@@ -58,10 +58,10 @@ body {
   .masthead h1 {
     color: white;
     font-weight: 600;
-    font-family: Palatino, monospace;
+    font-family: inherit;
     margin-bottom: 0;
     margin-top: 40px;
-    font-size: 100px; }
+    font-size: 60px; }
   .masthead h3 {
     font-weight: 300;
     color: #fff; }
@@ -74,63 +74,18 @@ body {
 
 .screenshot-container {
   text-align: center;
-  margin-bottom: 130px;
+  margin-bottom: 50px;
   background: linear-gradient(#abcbf3, 5%, #fafafa); }
   @media (max-width: 576px) {
     .screenshot-container {
       display: none; } }
   .screenshot-container img {
-    margin-top: -70px;
+    margin-top: -40px;
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
     border-radius: 4px; }
-
-.testimony-container {
-  margin-bottom: 50px;
-  font-size: 1.4rem;
-  color: #2f80ca;
-  text-align: center;
-  font-style: italic; }
-  @media (min-width: 576px) {
-    .testimony-container {
-      background-color: #edf2f7; } }
-  .testimony-container hr {
-    max-width: 260px; }
-    @media (max-width: 576px) {
-      .testimony-container hr {
-        display: none; } }
-  .testimony-container .text {
-    padding: 30px 0; }
-
-.feature-section {
-  margin-bottom: 3rem;
-  padding-left: 0px;
-  padding-right: 0px; }
-  .feature-section h4 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    margin-bottom: 0.8rem; }
-  .feature-section .container > .row {
-    padding-bottom: 1.1rem; }
-  .feature-section img {
-    border-radius: 6px;
-    max-width: 90%; }
-    @media (max-width: 992px) {
-      .feature-section img {
-        max-width: 100%; } }
-  .feature-section h5 {
-    color: #2f80ca;
-    font-size: 1.4rem; }
-  .feature-section p {
-    margin-top: 1rem; }
-
-.get-started-container {
-  padding: 40px 0px;
-  background: #126cda;
-  box-shadow: inset 0 30px 30px -30px rgba(0, 0, 0, 0.35), inset 0 -20px 30px -30px rgba(0, 0, 0, 0.35);
-  text-align: center; }
 
 .badges-container {
   padding-top: 30px;
