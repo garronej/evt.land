@@ -1,5 +1,5 @@
 {
-	"name": "ts-evt.dev",
+	"name": "evt.land",
 	"version": "1.0.0",
 	"description": "TS-EVT landing page",
 	"scripts": {
@@ -7,7 +7,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/garronej/ts-evt.dev"
+		"url": "git+https://github.com/garronej/evt.land"
 	},
 	"author": "Joseph Garrone",
 	"license": "MIT",
