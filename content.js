@@ -6,5 +6,5 @@ module.exports = {
   apiUrl: "https://docs.evt.land/api",
   learnMoreUrl: "https://docs.evt.land",
   githubUrl: "https://github.com/garronej/evt",
-  stackblitzUrl: "https://stackblitz.com/edit/ts-evt-demo-hello-world?embed=1&file=index.ts"
+  stackblitzUrl: "https://stackblitz.com/edit/evt-playground?embed=1&file=index.ts&hideExplorer=1"
 }
