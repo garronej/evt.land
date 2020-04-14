@@ -69,14 +69,35 @@
           <h1 class="text-center"><%= title %></h1>
           <h3 class="text-center"><%= subtitle %></h3>
           <div class="terminal-wrapper">
+
+            <img src="assets/img/deno.gif" alt="deno-gif" class="deno">
+
+            <div class="chrome-RN-node-img">
+              <img src="assets/img/reactNative.png" alt="RN">
+              <img src="assets/img/nav.png" alt="chromePNG">
+              <img src="assets/img/node.png" alt="nodePNG">
+            </div>
+
             <div id="typed-strings" style="display: none;">
+              <span>
+                <span class="text-muted">></span> <span style="color: rgb(243, 26, 63);">import</span> { Evt } <span style="color: rgb(243, 26, 63);">from</span> <span style="color: rgb(122, 213, 243);">"https://deno.land/x/evt/mod.ts";</span><br>
+              </span>
+            </div>
+            
+
+            <div id="typed-strings2" style="display: none;">
               <span>
                 <span class="text-muted">></span> npm install --save evt<br>
               </span>
             </div>
-            <div class="terminal m-auto">
+
+            <div class="terminal m-auto term1">
               <span id="typed"></span>
             </div>
+            <div class="terminal m-auto">
+              <span id="typed2"></span>
+            </div>
+
           </div>
         </div>
 
@@ -135,6 +156,11 @@
   <script>
     var typed = new Typed("#typed", {
       "stringsElement": '#typed-strings',
+      "typeSpeed": 18,
+      "showCursor": false
+    });
+    var typed2 = new Typed("#typed2", {
+      "stringsElement": '#typed-strings2',
       "typeSpeed": 18,
       "showCursor": false
     });
