@@ -80,7 +80,7 @@
 
             <div id="typed-strings" style="display: none;">
               <span>
-                <span style="color: #b38eb8;">import</span> { <span style="color: #9cd5f2;">Evt</span>  } <span style="color: #b38eb8;">from</span> <span style="color: #c89279;">"<span style="text-decoration: underline;">https://deno.land/x/evt/mod.ts</span>"</span>;<br>
+                <span style="color: #b38eb8;">import</span> { <span style="color: #9cd5f2;">Evt</span>  } <span style="color: #b38eb8;">from</span> <span style="color: #c89279;">'<span style="text-decoration: underline;">https://deno.land/x/evt/mod.ts</span>'</span>;<br>
               </span>
             </div>
             
@@ -138,9 +138,9 @@
   <section class="badges-container">
     <div class="container">
 
-      <img src="https://img.shields.io/bundlephobia/min/evt">
       <img src="https://img.shields.io/bundlephobia/minzip/evt">
-      <img src="https://img.shields.io/david/garronej/evt">
+      <img src="https://img.shields.io/npm/dw/evt">
+      <img src="https://img.shields.io/github/commit-activity/w/garronej/evt">
       <img src="https://img.shields.io/npm/l/evt">
 
     </div>
@@ -154,12 +154,12 @@
   <script src="assets/3p/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/3p/typed.js/typed.min.js"></script>
   <script>
-    var typed = new Typed("#typed", {
+    new Typed("#typed", {
       "stringsElement": '#typed-strings',
       "typeSpeed": 18,
       "showCursor": false
     });
-    var typed2 = new Typed("#typed2", {
+    new Typed("#typed2", {
       "stringsElement": '#typed-strings2',
       "typeSpeed": 18,
       "showCursor": false

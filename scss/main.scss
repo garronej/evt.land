@@ -30,7 +30,7 @@ body {
 }
 
 .mastfoot {
-  background-color: hsla(212, 51%, 54%, 1);
+  background-color: #0c75f9;
 }
 
 .navbar {
@@ -67,9 +67,6 @@ body {
   background-attachment: fixed;
   background-position: center; 
 
-  @media (max-width: 576px)  {
-    margin-bottom: 3rem;
-  }
 
   .terminal-wrapper {
     position: relative;
@@ -171,7 +168,7 @@ body {
     }
     @media (max-width: 576px)  {
       padding-bottom: 20px;
-      height: 650px;
+      height: 570px;
     }
   }
 
@@ -210,7 +207,6 @@ body {
 
 .screenshot-container {
   text-align: center;
-  margin-bottom: 50px;
   background: linear-gradient(rgb(171, 203, 243), 5%, $bg-white);
 
   @media (max-width: 576px)  {
@@ -245,4 +241,5 @@ body {
   color: $text-white;
 
   text-align: center;
+
 }

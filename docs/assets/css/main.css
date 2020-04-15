@@ -22,7 +22,7 @@ body {
   max-width: 500px; }
 
 .mastfoot {
-  background-color: #4e86c6; }
+  background-color: #0c75f9; }
 
 .navbar {
   font-size: 18px;
@@ -44,9 +44,6 @@ body {
   background-image: url("/assets/img/background8.png");
   background-attachment: fixed;
   background-position: center; }
-  @media (max-width: 576px) {
-    .masthead {
-      margin-bottom: 3rem; } }
   .masthead .terminal-wrapper {
     position: relative;
     padding: 20px 0; }
@@ -126,7 +123,7 @@ body {
     @media (max-width: 576px) {
       .masthead .content {
         padding-bottom: 20px;
-        height: 650px; } }
+        height: 570px; } }
   .masthead h1 {
     color: white;
     font-weight: 600;
@@ -152,7 +149,6 @@ body {
 
 .screenshot-container {
   text-align: center;
-  margin-bottom: 50px;
   background: linear-gradient(#abcbf3, 5%, #fafafa); }
   @media (max-width: 576px) {
     .screenshot-container {
