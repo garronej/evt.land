@@ -5,17 +5,18 @@ body {
   body .comment {
     width: 100%;
     position: relative;
-    height: 600px;
-    background-color: #f1f1f1;
+    height: 400px;
     margin-top: 50px; }
+    body .comment h1 {
+      text-align: center; }
     @media (max-width: 788px) {
       body .comment {
         margin-top: 120px; } }
     @media (max-width: 576px) {
       body .comment {
-        margin-top: 0; } }
+        margin-top: 50px; } }
     body .comment .comment-wrapper {
-      background-color: white;
+      background-color: #f1f1f1;
       width: 1200px;
       height: 200px;
       position: absolute;
@@ -230,21 +231,23 @@ body {
       left: 480px; } }
 
 @media screen and (max-width: 830px) {
-  body .comment .comment-wrapper {
-    width: 400px;
-    height: 490px;
-    margin-top: -240px;
-    margin-left: -200px; }
-    body .comment .comment-wrapper .quote-container {
-      width: 380px;
-      top: 130px;
-      margin-left: 10px;
-      text-align: center; }
-    body .comment .comment-wrapper .author-container {
-      width: 100%;
-      text-align: center;
-      left: 0; }
-    body .comment .comment-wrapper .image-container a img {
-      top: 15px;
-      left: 50%;
-      margin-left: -50px; } }
+  body .comment {
+    height: 630px; }
+    body .comment .comment-wrapper {
+      width: 400px;
+      height: 490px;
+      margin-top: -240px;
+      margin-left: -200px; }
+      body .comment .comment-wrapper .quote-container {
+        width: 380px;
+        top: 130px;
+        margin-left: 10px;
+        text-align: center; }
+      body .comment .comment-wrapper .author-container {
+        width: 100%;
+        text-align: center;
+        left: 0; }
+      body .comment .comment-wrapper .image-container a img {
+        top: 15px;
+        left: 50%;
+        margin-left: -50px; } }
