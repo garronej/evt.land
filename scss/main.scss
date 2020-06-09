@@ -2,9 +2,67 @@ $lightwhite: hsl(213, 100%, 92%);
 $bg-white: #fafafa;
 $text-white: #fff;
 
+
+
 body {
   background-color: $bg-white;
   font-family: Roboto,Helvetica,Arial,sans-serif;
+  min-width: 440px !important;
+
+  .comment{
+    width: 100%;
+    position: relative;
+    height: 600px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 50px;
+    @media (max-width: 788px){
+      margin-top: 120px;
+    }
+
+    @media (max-width: 576px){
+      margin-top: 0;
+    }
+    .comment-wrapper{
+      background-color: white;
+      width: 1200px;
+      height: 200px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-top: -100px;
+      margin-left: -600px;
+      .quote-container{
+        position: relative;
+        width: 1000px;
+        margin-left: 150px;
+        top: 30px;
+      }
+      .quote-container, .author-container{
+        p{
+          font-size: 0.95rem;
+          line-height: 1.5em;
+          letter-spacing: 0.05em;
+        }
+      }
+      .author-container{
+        position: absolute;
+        left: 880px;
+        bottom: 0px;
+
+      }
+      .image-container{
+        a{
+          img{
+            width: 100px;
+            position: absolute;
+            top: 50px;
+            left: 30px;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 .btn-white {
@@ -143,11 +201,11 @@ body {
         left: 0;
         width: 310px;
       }
-      @media (max-width: 345px){
+      /*@media (max-width: 345px){
         margin-left: -10px !important;
         padding-left: 2px;
         width: 295px;
-      }
+      }*/
     }
   }
 
@@ -209,6 +267,14 @@ body {
   text-align: center;
   background: linear-gradient(rgb(171, 203, 243), 5%, $bg-white);
 
+  img{
+    @media (max-width: 788px){
+      position: relative;
+      top: 80px;
+    }
+  }
+
+
   @media (max-width: 576px)  {
     display: none;
   }
@@ -242,4 +308,60 @@ body {
 
   text-align: center;
 
+}
+
+@media screen and (max-width: 1230px){
+  body{
+    .comment{
+      .comment-wrapper{
+        width: 800px;
+        height: 270px;
+        margin-top: -135px;
+        margin-left: -400px;
+        .quote-container{
+          width: 600px;
+        }
+        .author-container{
+          left: 480px;
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 830px){
+  body{
+    .comment{
+      .comment-wrapper{
+        width: 400px;
+        height: 490px;
+        margin-top: -240px;
+        margin-left: -200px;
+        .quote-container{
+          width: 380px;
+          top: 130px;
+          margin-left: 10px;
+          text-align: center;
+
+        }
+        .author-container{
+          width: 100%;
+          text-align: center;
+          left: 0;
+        }
+
+        .image-container{
+          a{
+            img{
+              top: 15px;
+              left: 50%;
+              margin-left: -50px;
+            }
+          }
+        }
+
+      }
+    }
+  }
 }
