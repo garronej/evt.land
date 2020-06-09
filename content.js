@@ -1,8 +1,8 @@
 
 module.exports = {
   title: 'EVT',
-  subtitle: "A type safe replacement for node's EventEmitter",
-  description: "EVT is a type safe replacement for EventEmitter that challenge RxJS and run everywhere, Node.JS, Deno, the browser of your grandma and ReactNative",
+  subtitle: "Node.js EventEmitter's typesafe replacement",
+  description: "EVT is a type safe replacement for EventEmitter, an alternative for RxJS and it runs everywhere: Node.JS, Deno, the browser of your grandma and ReactNative",
   apiUrl: "https://docs.evt.land/api",
   learnMoreUrl: "https://docs.evt.land",
   githubUrl: "https://github.com/garronej/evt",
