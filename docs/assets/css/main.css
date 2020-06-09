@@ -9,15 +9,20 @@ body {
     width: 100%;
     position: relative;
     height: 400px;
-    margin-top: 50px; }
-    body .comment h1 {
-      text-align: center; }
-    @media (max-width: 788px) {
-      body .comment {
-        margin-top: 120px; } }
-    @media (max-width: 576px) {
-      body .comment {
-        margin-top: 50px; } }
+    margin-top: 50px;
+    /*
+    h1{
+      text-align: center;
+    }
+    @media (max-width: 788px){
+      margin-top: 120px;
+    }
+
+    @media (max-width: 576px){
+      margin-top: 50px;
+    }
+    */
+    margin-top: 0px !important; }
     body .comment .comment-wrapper {
       background-color: #f1f1f1;
       border-radius: 10px;
@@ -39,7 +44,7 @@ body {
         letter-spacing: 0.05em; }
       body .comment .comment-wrapper .author-container {
         position: absolute;
-        left: 880px;
+        left: 850px;
         bottom: 0px; }
       body .comment .comment-wrapper .image-container a img {
         width: 100px;
@@ -211,7 +216,7 @@ body {
     border-radius: 4px; }
 
 .badges-container {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 35px;
   padding-left: 0px;

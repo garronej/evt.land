@@ -19,6 +19,7 @@ body {
     position: relative;
     height: 400px;
     margin-top: 50px;
+    /*
     h1{
       text-align: center;
     }
@@ -29,6 +30,10 @@ body {
     @media (max-width: 576px){
       margin-top: 50px;
     }
+    */
+
+    margin-top: 0px !important;
+
     .comment-wrapper{
       background-color: rgb(241, 241, 241);
       //background-color: #0B75F9;
@@ -55,7 +60,7 @@ body {
       }
       .author-container{
         position: absolute;
-        left: 880px;
+        left: 850px;
         bottom: 0px;
 
       }
@@ -300,7 +305,7 @@ body {
 
 
 .badges-container {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 35px;
   padding-left: 0px;
