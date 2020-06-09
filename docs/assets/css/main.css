@@ -2,6 +2,9 @@ body {
   background-color: #fafafa;
   font-family: Roboto,Helvetica,Arial,sans-serif;
   min-width: 440px !important; }
+  body .carousel-control-next-icon,
+  body .carousel-control-prev-icon {
+    filter: invert(1); }
   body .comment {
     width: 100%;
     position: relative;
@@ -17,6 +20,7 @@ body {
         margin-top: 50px; } }
     body .comment .comment-wrapper {
       background-color: #f1f1f1;
+      border-radius: 10px;
       width: 1200px;
       height: 200px;
       position: absolute;

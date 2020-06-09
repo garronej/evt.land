@@ -9,6 +9,11 @@ body {
   font-family: Roboto,Helvetica,Arial,sans-serif;
   min-width: 440px !important;
 
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    filter: invert(1);
+  }
+
   .comment{
     width: 100%;
     position: relative;
@@ -26,6 +31,8 @@ body {
     }
     .comment-wrapper{
       background-color: rgb(241, 241, 241);
+      //background-color: #0B75F9;
+      border-radius: 10px;
       width: 1200px;
       height: 200px;
       position: absolute;

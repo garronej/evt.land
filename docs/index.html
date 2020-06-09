@@ -138,46 +138,92 @@
     <img src="assets/img/try-in-browser.gif" alt="">
   </section>
 
-  <section class="comment">
 
-    <h1>Why EVT?</h1>
-      
+    <!--<h1>Why EVT?</h1>-->
 
-    <div class="comment-wrapper">
 
-      <div class="friend-item">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <section class="comment">
+
+        <div class="comment-wrapper shadow">
+
+          <div class="friend-item">
+            
+            <div class="image-container">
+                <a href="https://connext.network">
+                    <img src="assets/img/logo_connext.png" class="friend-logo" role="presentation">
+                </a>
+            </div>
+            <div class="quote-container">
+              <p>
+                <em>
+                  "At <a href="//connext.network">Connext</a>, we are building complex, distributed systems that rely heavily on event-driven processes. 
+                  We eventually found that the capabilities of the Node.js EventEmitter could not handle some of our more complex event-based needs 
+                  such as attaching an event based on a filter. 
+                  We are grateful to have found EVT as a suitable replacement which gives us strong typing and a powerful API for all of our eventing needs. 
+                  We were able to eliminate a lot of boilerplate and complicated code around resolving promises and detaching listeners by using waitFor. 
+                  We have also exposed the EVT interface through our API so our users can make use of these powerful features."
+                </em>
+              </p>
+            </div>
+            <div class="author-container">
+                <p><em>- Rahul Sethuram, CTO at Connext</em></p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <div class="carousel-item">
+      <section class="comment">
+
+        <div class="comment-wrapper shadow">
+
+          <div class="friend-item">
         
-        <div class="image-container">
-            <a href="//connext.network">
-                <img src="assets/img/logo_connext.png" class="friend-logo" role="presentation">
-            </a>
+            <div class="image-container">
+                <a href="https://www.semasim.com">
+                    <img src="assets/img/logo_semasim.png" class="friend-logo" role="presentation">
+                </a>
+            </div>
+            <div class="quote-container">
+              <p>
+                <em>
+                  EVT catches at compile time countless errors that other event management libraries would have let slip through. 
+                  If forces you to write code in ways TypeScript can understand so you always know what it what.
+                </em>
+              </p>
+            </div>
+            <div class="author-container">
+                <p><em>- William Thiery, Frontend Dev at <a href="//semasim.com">Semasim</a></em></p>
+            </div>
+
+          </div>
+
         </div>
-        <div class="quote-container">
-          <p>
-            <em>
-              "At <a href="//connext.network">Connext</a>, we are building complex, distributed systems that rely heavily on event-driven processes. 
-              We eventually found that the capabilities of the Node.js EventEmitter could not handle some of our more complex event-based needs 
-              such as attaching an event based on a filter. 
-              We are grateful to have found EVT as a suitable replacement which gives us strong typing and a powerful API for all of our eventing needs. 
-              We were able to eliminate a lot of boilerplate and complicated code around resolving promises and detaching listeners by using waitFor. 
-              We have also exposed the EVT interface through our API so our users can make use of these powerful features."
-            </em>
-          </p>
-        </div>
-        <div class="author-container">
-            <p><em>- Rahul Sethuram, CTO at Connext</em></p>
-        </div>
 
-
-
-      </div>
-
-
+      </section>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="color:red;"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
 
-  </section>
+
+
+
 
   <section class="badges-container">
     <div class="container">
