@@ -2,10 +2,36 @@
 <html lang="en">
 
 <head>
-  <title><%= title %> - <%= subtitle %></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+  <!-- HTML Meta Tags -->
+  <title><%= title %> - <%= subtitle %></title>
   <meta name="description" content="<%= description %>">
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="<%= title %>">
+  <meta itemprop="description" content="<%= description %>">
+  <meta itemprop="image" content="<%= preview %>">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="<%= baseUrl %>">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="<%= title %>">
+  <meta property="og:description" content="<%= description %>">
+  <meta property="og:image" content="<%= preview %>">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= title %>">
+  <meta name="twitter:description" content="<%= description %>">
+  <meta name="twitter:image" content="<%= preview %>">
+
+  <!-- Meta Tags Generated via http://heymeta.com -->
+
+
   <link rel="icon" type="image/png" href="assets/img/logo_250.png" />
 
   <link rel="stylesheet" href="assets/3p/bootstrap/css/bootstrap.min.css">
