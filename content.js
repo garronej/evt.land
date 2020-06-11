@@ -1,7 +1,7 @@
 module.exports = {
   title: 'EVT',
   subtitle: "EventEmitter's typesafe replacement",
-  description: "EVT is a type safe replacement for EventEmitter, an alternative for RxJS and it runs everywhere: Node.JS, Deno, the browser of your grandma and ReactNative",
+  description: "EVT is a type safe replacement for EventEmitter and an alternative for RxJS. It runs everywhere, Node/Deno/browsers/RN.",
   preview: "//assets/img/social_preview.png", //Social media preview image
   baseUrl: "https://evt.land",
   apiUrl: "https://docs.evt.land/api",
@@ -24,7 +24,7 @@ We have also exposed the EVT interface through our API so our users can make use
       "logo": "assets/img/logo_semasim.png",
       "url": "https://www.semasim.com",
       "quote": `EVT catches at compile time countless errors that other event management libraries would have let slip through. 
-If forces you to write code in ways TypeScript can understand so you always know what is what.`,
+It forces you to write code in ways TypeScript can understand so you always know what is what.`,
       "author": `William Thiery, Frontend Dev at <a target="_blank" rel="noopener noreferrer" href="https://semasim.com">Semasim</a>`
     }
   ]
