@@ -1,5 +1,5 @@
 
-# ts-evt.dev
+# evt.dev
 
 ```bash
 npm install
