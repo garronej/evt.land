@@ -239,7 +239,7 @@ body {
     body .comment .comment-wrapper .author-container {
       left: 480px; } }
 
-@media screen and (max-width: 893px) {
+@media screen and (max-width: 983px) {
   body .comment {
     height: 630px; }
     body .comment .comment-wrapper {
