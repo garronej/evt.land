@@ -7,7 +7,7 @@ $text-white: #fff;
 body {
   background-color: $bg-white;
   font-family: Roboto,Helvetica,Arial,sans-serif;
-  min-width: 440px !important;
+  min-width: 360px !important;
 
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
@@ -324,7 +324,7 @@ body {
 
 }
 
-@media screen and (max-width: 1230px){
+@media screen and (max-width: 1470px){
   body{
     .comment{
       .comment-wrapper{
@@ -344,7 +344,7 @@ body {
   }
 }
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 893px){
   body{
     .comment{
       height: 630px;
@@ -378,5 +378,29 @@ body {
 
       }
     }
+  }
+}
+
+@media screen and (max-width: 788px){
+  body{
+    .carousel{
+      top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 510px){
+  body{
+    .carousel{
+      top: -50px;
+      height: 550px;
+      .comment{
+        .comment-wrapper{
+          transform: scale(0.8);
+        }
+
+      }
+    }
+
   }
 }
