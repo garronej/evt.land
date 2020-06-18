@@ -1,7 +1,7 @@
 module.exports = {
   title: "EVT",
   subtitle: "EventEmitter's typesafe replacement",
-  description: "Accessible yet powerful. Designed to make the most of TypeScript. For Deno/Node/Browser/RN.",
+  description: "Accessible yet powerful. Designed to make the most of TypeScript. Deno/Node/Browser/RN.",
   preview: "https://evt.land/assets/img/social_preview.png", //Social media preview image
   baseUrl: "https://evt.land",
   apiUrl: "https://docs.evt.land/api",
