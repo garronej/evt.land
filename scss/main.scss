@@ -336,7 +336,7 @@ body {
           width: 600px;
         }
         .author-container{
-          left: 350px;
+          left: 450px;
         }
 
       }
@@ -403,4 +403,16 @@ body {
     }
 
   }
+}
+
+.code {
+  color: #696969;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  //font-size: 11pt;
+  font-style: initial;
+  //background: grey;
+  //padding: 15px;
+  //padding-top: 0px;
+  //border-radius: 5px; 
+  //max-width: 500px;
 }

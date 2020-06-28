@@ -237,7 +237,7 @@ body {
     body .comment .comment-wrapper .quote-container {
       width: 600px; }
     body .comment .comment-wrapper .author-container {
-      left: 350px; } }
+      left: 450px; } }
 
 @media screen and (max-width: 983px) {
   body .comment {
@@ -271,3 +271,8 @@ body {
     height: 550px; }
     body .carousel .comment .comment-wrapper {
       transform: scale(0.8); } }
+
+.code {
+  color: #696969;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  font-style: initial; }

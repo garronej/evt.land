@@ -16,7 +16,7 @@ module.exports = {
 We eventually found that the capabilities of the Node.js EventEmitter could not handle some of our more complex event-based needs 
 such as attaching an event based on a filter. 
 We are grateful to have found EVT as a suitable replacement which gives us strong typing and a powerful API for all of our eventing needs. 
-We were able to eliminate a lot of boilerplate and complicated code around resolving promises and detaching listeners by using waitFor. 
+We were able to eliminate a lot of boilerplate and complicated code around resolving promises and detaching listeners by using <span class="code">waitFor</span>. 
 We have also exposed the EVT interface through our API so our users can make use of these powerful features.`,
       "author": `Rahul Sethuram, CTO at <a target="_blank" rel="noopener noreferrer" href="https://connext.network">Connext</a>`
     },
@@ -24,8 +24,8 @@ We have also exposed the EVT interface through our API so our users can make use
       "logo": "assets/img/logo_the_graph.png",
       "url": "https://thegraph.com",
       "quote": `It's been a great experience so far.<br>
-Tried eventemitter3 before but it's such a hassle to define event types cleanly.<br>
-Now with evt, all of our interfaces have an events member that has foo: Evt<FooEvent> members for all event types.`,
+Tried EventEmitter3 before but it's such a hassle to define event types cleanly.<br>
+Now with EVT, all of our interfaces have an <span class="code">events</span> member that has <span class="code">foo: Evt&lt;FooEvent&gt;</span> members for all event types.`,
       "author": `Jannis Pohlmann, Tech Lead & Co-Founder at <a target="_blank" rel="noopener noreferrer" href="https://thegraph.com">The Graph</a>`
     },
     {
