@@ -21,6 +21,14 @@ We have also exposed the EVT interface through our API so our users can make use
       "author": `Rahul Sethuram, CTO at <a target="_blank" rel="noopener noreferrer" href="https://connext.network">Connext</a>`
     },
     {
+      "logo": "assets/img/logo_the_graph.png",
+      "url": "https://thegraph.com",
+      "quote": `It's been a great experience so far.<br>
+Tried eventemitter3 before but it's such a hassle to define event types cleanly.<br>
+Now with evt, all of our interfaces have an events member that has foo: Evt<FooEvent> members for all event types.`,
+      "author": `Jannis Pohlmann, Tech Lead & Co-Founder at <a target="_blank" rel="noopener noreferrer" href="https://thegraph.com">The Graph</a>`
+    },
+    {
       "logo": "assets/img/logo_semasim.png",
       "url": "https://www.semasim.com",
       "quote": `EVT catches at compile time countless errors that other event management libraries would have let slip through. 

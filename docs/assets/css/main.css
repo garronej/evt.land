@@ -237,7 +237,7 @@ body {
     body .comment .comment-wrapper .quote-container {
       width: 600px; }
     body .comment .comment-wrapper .author-container {
-      left: 480px; } }
+      left: 350px; } }
 
 @media screen and (max-width: 983px) {
   body .comment {
