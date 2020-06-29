@@ -26,7 +26,7 @@ We have also exposed the EVT interface through our API so our users can make use
       "quote": `It's been a great experience so far.<br>
 Tried EventEmitter3 before but it's such a hassle to define event types cleanly.<br>
 Now with EVT, all of our interfaces have an <span class="code">events</span> member that has <span class="code">foo: Evt&lt;FooEvent&gt;</span> members for all event types.`,
-      "author": `Jannis Pohlmann, Tech Lead & Co-Founder at <a target="_blank" rel="noopener noreferrer" href="https://thegraph.com">The Graph</a>`
+      "author": `Jannis Pohlmann, Tech Lead & Co-Founder at <a target="_blank" rel="noopener noreferrer" href="https://thegraph.com"><span style="white-space:nowrap;">The Graph</span></a>`
     },
     {
       "logo": "assets/img/logo_semasim.png",
