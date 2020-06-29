@@ -60,8 +60,13 @@ body {
       }
       .author-container{
         position: absolute;
-        left: 850px;
+        //left: 850px;
         bottom: 0px;
+
+        width: 100%;
+        left: 0;
+        text-align: right ;
+        padding-right: 20px ;
 
       }
       .image-container{
@@ -335,10 +340,6 @@ body {
         .quote-container{
           width: 600px;
         }
-        .author-container{
-          left: 450px;
-        }
-
       }
     }
   }
@@ -364,6 +365,9 @@ body {
           width: 100%;
           text-align: center;
           left: 0;
+          > p {
+            margin-bottom: 6px;
+          }
         }
 
         .image-container{
@@ -408,11 +412,5 @@ body {
 .code {
   color: #696969;
   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
-  //font-size: 11pt;
   font-style: initial;
-  //background: grey;
-  //padding: 15px;
-  //padding-top: 0px;
-  //border-radius: 5px; 
-  //max-width: 500px;
 }

@@ -44,8 +44,11 @@ body {
         letter-spacing: 0.05em; }
       body .comment .comment-wrapper .author-container {
         position: absolute;
-        left: 850px;
-        bottom: 0px; }
+        bottom: 0px;
+        width: 100%;
+        left: 0;
+        text-align: right;
+        padding-right: 20px; }
       body .comment .comment-wrapper .image-container a img {
         width: 100px;
         position: absolute;
@@ -235,9 +238,7 @@ body {
     margin-top: -135px;
     margin-left: -400px; }
     body .comment .comment-wrapper .quote-container {
-      width: 600px; }
-    body .comment .comment-wrapper .author-container {
-      left: 450px; } }
+      width: 600px; } }
 
 @media screen and (max-width: 983px) {
   body .comment {
@@ -256,6 +257,8 @@ body {
         width: 100%;
         text-align: center;
         left: 0; }
+        body .comment .comment-wrapper .author-container > p {
+          margin-bottom: 6px; }
       body .comment .comment-wrapper .image-container a img {
         top: 15px;
         left: 50%;
