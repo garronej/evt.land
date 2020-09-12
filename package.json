@@ -1,7 +1,7 @@
 {
 	"name": "evt.land",
 	"version": "1.0.0",
-	"description": "TS-EVT landing page",
+	"description": "EVT landing page",
 	"scripts": {
 		"build": "npx gulp"
 	},

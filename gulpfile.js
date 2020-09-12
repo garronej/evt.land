@@ -46,6 +46,11 @@ gulp.task("copy-CNAME", () =>
 		.pipe(gulp.dest("docs"))
 );
 
+gulp.task("copy-robots.txt", () =>
+	gulp.src("robots.txt")
+		.pipe(gulp.dest("docs"))
+);
+
 gulp.task('copy', gulp.parallel(['copy-bootstrap', 'copy-fontawesome', 'copy-jquery', 'copy-types', 'copy-img', "copy-CNAME"]));
 
 gulp.task('ejs', () => {
