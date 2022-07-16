@@ -7,7 +7,7 @@ module.exports = {
   apiUrl: "https://docs.evt.land",
   learnMoreUrl: "https://docs.evt.land",
   githubUrl: "https://github.com/garronej/evt",
-  stackblitzUrl: "https://stackblitz.com/edit/evt-playground?embed=1&file=index.ts&hideExplorer=1",
+  stackblitzUrl: "https://stackblitz.com/edit/evt-playground-gfnidx?file=index.ts",
   "quotes": [
     {
       "logo": "assets/img/logo_connext.png",
