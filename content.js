@@ -4,7 +4,7 @@ module.exports = {
   description: "Accessible yet powerful. Designed to make the most of TypeScript. Deno/Node/Browser/RN.",
   preview: "https://evt.land/assets/img/social_preview.png", //Social media preview image
   baseUrl: "https://evt.land",
-  apiUrl: "https://docs.evt.land/api",
+  apiUrl: "https://docs.evt.land",
   learnMoreUrl: "https://docs.evt.land",
   githubUrl: "https://github.com/garronej/evt",
   stackblitzUrl: "https://stackblitz.com/edit/evt-playground?embed=1&file=index.ts&hideExplorer=1",
