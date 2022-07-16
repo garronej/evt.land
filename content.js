@@ -33,7 +33,7 @@ Now with EVT, all of our interfaces have an <span class="code">events</span> mem
       "url": "https://www.semasim.com",
       "quote": `EVT catches at compile time countless errors that other event management libraries would have let slip through. 
 It forces you to write code in ways TypeScript can understand so you always know what is what.`,
-      "author": `William Thiery, Frontend Dev at <a target="_blank" rel="noopener noreferrer" href="https://semasim.com">Semasim</a>`
+      "author": `William Thiery, Frontend Dev at <a target="_blank" rel="noopener noreferrer" href="https://www.semasim.com">Semasim</a>`
     }
   ]
 }
