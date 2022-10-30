@@ -12,7 +12,7 @@
 	"author": "Joseph Garrone",
 	"license": "MIT",
 	"devDependencies": {
-		"browser-sync": "^2.26.7",
+		"browser-sync": "^2.27.10",
 		"gulp": "^4.0.2",
 		"gulp-ejs": "^3.3.0",
 		"gulp-ext-replace": "^0.3.0",
